@@ -381,8 +381,10 @@ class View {
     // Seleccion de etiquetas
     bindSelectTag(){
         this.tagList.on('click', (e) => {
-            e.target.classList.toggle('tagList__li--selected')
-            app.handleSelectTag();
+            if (e.target.nodeName == 'LI') {
+                e.target.classList.toggle('tagList__li--selected')
+                app.handleSelectTag();
+            }
         })
     }
     // Editor de notas
@@ -502,7 +504,6 @@ class Controller {
     handleLoadExamples(){
         $.getJSON('./data/examples.json', function (respuesta, estado) {
             if(estado === "success"){
-                // console.log(respuesta)
                 respuesta.forEach(nota => app.model.createNote(nota.title, nota.body, nota.tags, nota.id));
                 app.view.renderList(app.model.notes);
             }
