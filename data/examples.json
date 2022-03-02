@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Buscar notas",
+        "body": "Tambien puedes buscar notas por su contenido desde la barra de busqueda en la parte superior.",
+        "tags": [
+            "instrucciones",
+            "ejemplo",
+            "filtrar"
+        ],
+        "date": 1646238679260,
+        "id": 1646235815268
+    },
+    {
+        "title": "Filtrar resultados",
+        "body": "Puedes filtrar las notas segun sus etiquetas seleccionando cada etiqueta desde la lista.",
+        "tags": [
+            "instrucciones",
+            "ejemplo",
+            "filtrar"
+        ],
+        "date": 1646238679260,
+        "id": 1646235462568
+    },
+    {
+        "title": "Borrar nota",
+        "body": "Puedes borrar notas haciendo click en el icono correspondiente en cada nota.",
+        "tags": [
+            "instrucciones",
+            "ejemplo",
+            "editar"
+        ],
+        "date": 1646238679260,
+        "id": 1646235363431
+    },
+    {
+        "title": "Agregar etiquetas",
+        "body": "Puedes agregar etiquetas desde el editor, o haciendo click sobre la etiqueta en cada nota.",
+        "tags": [
+            "instrucciones",
+            "ejemplo",
+            "editar"
+        ],
+        "date": 1646238679260,
+        "id": 1646235271454
+    },
+    {
+        "title": "Editar nota",
+        "body": "Puedes hacer click sobre una nota ya creada para abrirla en el editor.",
+        "tags": [
+            "instrucciones",
+            "ejemplo",
+            "editar"
+        ],
+        "date": 1646238679260,
+        "id": 1646235189426
+    },
+    {
+        "title": "Crear nota",
+        "body": "Haz click en \"Crear nota\" para empezar.",
+        "tags": [
+            "instrucciones",
+            "ejemplo",
+            "editar"
+        ],
+        "date": 1646238679260,
+        "id": 1646235141724
+    }
+]
